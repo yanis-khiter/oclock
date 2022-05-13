@@ -10,10 +10,16 @@
 
 <body>
 
+
+<h1>CHRONOMETRE</h1>
+
+
+
     <div class="container">
 
         <div class="stopwatch">
 
+            <span id="heure">00</span>
             <span id="minute">00</span>:
             <span id="second">00</span>:
             <span id="milli-second">00</span>
@@ -34,4 +40,10 @@
         </div>
 
     <script src="chrono.js"></script>
+
+    
+<a href="index.php"><img src="https://img.icons8.com/plasticine/70/000000/home-page.png"/></a>
+
+
+</body>
 

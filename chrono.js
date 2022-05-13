@@ -2,7 +2,7 @@
 
 // ********** CHRONOMETRE **********
 
-let ms = 0 , s = 0, m = 0;
+let ms = 0 , s = 0, m = 0, h = 0;
 let timer ;
 
 
@@ -26,6 +26,10 @@ function run(){
         s = 0;
         m++;
     }
+    if(h == 12){
+        h = 0;
+        m++;
+    }
 }
 
 function pause(){
@@ -37,6 +41,7 @@ function reset(){
     ms = 0 ;
     s = 0;
     m = 0;
+    h = 0;
     getTimer()
 }
 
@@ -46,7 +51,7 @@ function stopTimer(){
 }
 
 function getTimer(){
-    return stopwatch.textContent = (m < 10 ? "0"+m : m )+ ":" + (s < 10 ? "0"+s: s )+ ":" + (ms < 10 ? "0"+ms: ms) ;
+    return stopwatch.textContent = (m < 10 ? "0"+m : m )+ ":" + (m < 10 ? "0"+m : m )+ ":" + (s < 10 ? "0"+s: s )+ ":" + (ms < 10 ? "0"+ms: ms)  ;
 }
 function lap(){
     if(timer){

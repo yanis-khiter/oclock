@@ -1,5 +1,5 @@
 
- h1 {
+h1 {
 text-align: center;
 font-size:  100px;
 margin-top: 5%;
@@ -9,13 +9,8 @@ color: white;
 font-weight: bold;
 mix-blend-mode: multiply;
 text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
-
 }
 
-
-
-
-/********** Horloge **********/
 
 *,
 *::before,
@@ -31,7 +26,6 @@ max-width: 100%;
 height: auto;
 background-size: cover;
 }
-
 
 .horloge{
 margin-right: 5%;
@@ -55,34 +49,32 @@ border-bottom: 1px solid rgba(10,10,10,0.2);
 font-size: 30px;
 font-family: 'Tahoma', sans-serif;
 padding-top: 10px;
-
 }
 
 
 /********* Buttons  **********/
 
 
-
 .bloc {
-    display: flex;
-    margin-top: 7%;
-    margin-right: 7%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px
+display: flex;
+margin-top: 7%;
+margin-right: 7%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 50px
 }
 
 .button  {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000000;
-    cursor: pointer;
-    border: 3px solid;
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+letter-spacing: 2px;
+text-decoration: none;
+text-transform: uppercase;
+color: #000000;
+cursor: pointer;
+border: 3px solid;
+box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 }
 
 .button:active {
