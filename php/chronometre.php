@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/chronometre.css">
+    <link rel="stylesheet" href="../style/chronometre.css">
     <title>Chronomètre</title>
 </head>
 
@@ -39,7 +39,7 @@
 
         </div>
 
-    <script src="chrono.js"></script>
+    <script src="../js/chrono.js"></script>
 
     
 <a href="index.php"><img src="https://img.icons8.com/plasticine/70/000000/home-page.png"/></a>
