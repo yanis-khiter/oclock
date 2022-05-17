@@ -32,17 +32,20 @@
 
         <div class="controls">
 
-            <button onclick="reset()" id="reset">Reset</button>
-            <button onclick="start()" id="start">Start</button>
-            <button onclick="stopTimer()" id="stop">Stop</button>
-            <button onclick="lap()" id="lap">Lap</button>
+        <button onclick="start()" id="start">Start</button>
+        <button onclick="stopTimer()" id="stop">Pause</button>
+        <button onclick="lap()" id="lap">Lap</button>
+            <button onclick="reset()" id="reset">Restart</button>
+           
+           
+        
 
         </div>
 
     <script src="../js/chrono.js"></script>
 
     
-<a href="index.php"><img src="https://img.icons8.com/plasticine/70/000000/home-page.png"/></a>
+<a href="index.php"><img src="https://img.icons8.com/wired/70/000000/home.png"/></a>
 
 
 </body>

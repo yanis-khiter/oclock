@@ -26,8 +26,7 @@
 
             <div id ="myDiv">
 
-                <label>Choose Alarm Sound:</label>
-                <br>
+    
                 <select id="mySelect"></select>
 
             </div>	
@@ -43,5 +42,5 @@
 
             <script src="../js/reveil.js"></script>
 
-            <a href="index.php"><img src="https://img.icons8.com/plasticine/70/000000/home-page.png"/></a>
+            <a href="index.php"><img src="https://img.icons8.com/wired/70/000000/home.png"/></a>
 </body>

@@ -56,13 +56,13 @@ function soundMenu() {
 var select = document.getElementById("mySelect");	
 
 var array = [
-{name: "Birds",
+{name: "Oiseaux",
 url: "  "},	
-{name: "Morning",
+{name: "Matin",
 url: "https://www.freespecialeffects.co.uk/soundfx/computers/goodmorningfemale.wav"},
-{name: "Bells",
+{name: "Cloches",
 url: "https://www.freespecialeffects.co.uk/soundfx/bells/church_bells_01.wav"},
-{name: "Rings",
+{name: "Sonnerie",
 url: "https://www.freespecialeffects.co.uk/soundfx/telephone/phone_ring_2.wav"}
 ]; 
 
